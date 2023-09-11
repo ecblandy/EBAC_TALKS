@@ -1,11 +1,21 @@
 @use 'hero';
+@use 'variaveis';
+@use 'components/infos';
+@use 'components/buttons';
+@use 'event';
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    list-style: none;
 }
+
+body {
+    color: #fff;
+}
+
 .container {
     max-width: 960px;
     width: 100%;
